@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>📝 To-Do List</h1>
+
+        <div class="input-area">
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter a task..."
+            >
+
+            <button id="addBtn">
+                Add
+            </button>
+        </div>
+        <br>
+        <div class="filter-buttons">
+            <button id="allBtn">All</button>&ensp;
+            <button id="completedBtn">Completed</button>&ensp;
+            <button id="pendingBtn">Pending</button>
+        </div>
+        <br>
+        <input
+           type="text"
+           id="searchInput"
+           placeholder="Search tasks..."
+        >
+        
+
+        <ul id="taskList"></ul>
+        <p id="taskCounter"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
